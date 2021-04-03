@@ -17,10 +17,14 @@ The input data are included in four sheets of the xls file [data](data.xlsx)
 * Sheets dzip is a vector that holds the digits (the number) for training.
 * Sheets azip is an array of dimension 256 x 1707 that holds the training images for training.
 
+<img src="five_training.png" alt="Plot of the 2nd image from the training set" style="height: 40px; width:40px;"/>
+
 The images are vectors of dimension 256, that have been constructed from 16 x 16 images.
 
 * Sheets dtest is a vector that holds the digits (the number) for testing.
 * Sheets testzip is an array of dimension 256 x 1707 that holds the training images for testing.
+
+<img src="eight_testing.png" alt="Plot of the 2nd image from the test set." style="height: 40px; width:40px;"/>
 
 The data are a subset of the US Postal Service Database.
 
