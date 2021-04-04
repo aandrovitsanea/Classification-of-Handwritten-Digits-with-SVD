@@ -33,3 +33,33 @@ The data are a subset of the US Postal Service Database.
 I merge the two datasets and then split them in an analogy 80%/20% for training/test set.
 
 I also include an [html version](Classification-of-Handwritten-Digits-with-SVD.html) of the project.
+
+## Scripts
+
+
+You can either open the [Jupyter notebook](Classification-of-Handwritten-Digits-with-SVD.ipynb) or run the [script](Classification-of-Handwritten-Digits-with-SVD.py) as following:
+
+```
+python3 Classification-of-Handwritten-Digits-with-SVD.py
+```
+
+## Requirements:
+
+`Classification-of-Handwritten-Digits-with-SVD.py` and `Classification-of-Handwritten-Digits-with-SVD.ipynb`were developed using Python 3.8.6 on Ubuntu 20.04.1 LTS.
+
+They have been tested with the following package versions:
+
+* numpy == 1.19.4
+* matplotlib == 3.3.2
+* pandas == 1.1.4
+* scipy == 1.5.3
+* scikit-learn == 0.23.2
+* sklearn == 0.0
+* tabulate == 0.8.7
+* progressbar == 3.53.1
+
+To install them run in a shell:
+
+```
+pip install -r requirements.txt
+```
