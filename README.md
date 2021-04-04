@@ -50,12 +50,19 @@ python3 Classification-of-Handwritten-Digits-with-SVD.py
 They have been tested with the following package versions:
 
 * numpy == 1.19.4
+
 * matplotlib == 3.3.2
+
 * pandas == 1.1.4
+
 * scipy == 1.5.3
+
 * scikit-learn == 0.23.2
+
 * sklearn == 0.0
+
 * tabulate == 0.8.7
+
 * progressbar == 3.53.1
 
 To install them run in a shell:
